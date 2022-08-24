@@ -1,0 +1,40 @@
+├───dags
+│   │   main.tf
+│   │   variables.tf
+│   │
+│   ├───modules
+│   │       module_config.tf
+│   │
+│   ├───project_1
+│   │   │   step_1.json
+│   │   │   step_2.json
+│   │   │
+│   │   └───sql
+│   │   │       dim.sql
+│   │   │       fact.sql
+│   │   │       select.sql
+│   │   │       update.sql
+│   │   │       view.sql
+│   │   │
+│   │   └───pyspark
+│   │           apply_map.py
+│   │           fact.py
+│   │           transform.py
+│   │
+│   └───project_2
+│       │   step_1.json
+│       │   step_2.json
+│       │
+│       └───sql
+│       │       dim.sql
+│       │       fact.sql
+│       │       select.sql
+│       │       update.sql
+│       │       view.sql
+│       │
+│       └───pyspark
+│               apply_map.py
+│               fact.py
+│               transform.py
+│    
+└────test_integration
