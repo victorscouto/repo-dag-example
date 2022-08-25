@@ -1,4 +1,4 @@
-├───dags
+├───application-repo
 │   │   main.tf
 │   │   variables.tf
 │   │
@@ -6,6 +6,7 @@
 │   │       module_config.tf
 │   │
 │   ├───project_1
+│   │   │   dag_config.json
 │   │   │   step_1.json
 │   │   │   step_2.json
 │   │   │
@@ -22,6 +23,7 @@
 │   │           transform.py
 │   │
 │   └───project_2
+│       │   dag_config.json
 │       │   step_1.json
 │       │   step_2.json
 │       │
