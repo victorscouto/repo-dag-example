@@ -10,6 +10,9 @@
 │   │   │   step_1.json
 │   │   │   step_2.json
 │   │   │
+│   │   └───tests
+│   │   │       test_main.py
+│   │   │
 │   │   └───sql
 │   │   │       dim.sql
 │   │   │       fact.sql
@@ -26,6 +29,9 @@
 │       │   dag_config.json
 │       │   step_1.json
 │       │   step_2.json
+│       │
+│       └───tests
+│       │       test_main.py
 │       │
 │       └───sql
 │       │       dim.sql
